@@ -9,7 +9,7 @@ screen = Screen()
 
 is_race_on = False
 screen.setup(width=500, height=400)
-user_bet = screen.textinput(title='Choose the turtle', prompt='Choose a coloured turtle: ')
+user_bet = screen.textinput(title='Turtle Racing: Make the Bet', prompt='Choose your turtle: ')
 colours = ['red', 'brown', 'green', 'blue', 'black','orange']
 start_pos = [-70, -40, -10, 20, 50, 80]
 players = []
